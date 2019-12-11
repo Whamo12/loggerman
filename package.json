@@ -1,0 +1,24 @@
+{
+  "name": "loggerman",
+  "version": "1.0.0",
+  "description": "A proof-of-concept application to demonstrate logging with Winston.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Alejandro Saenz",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.2.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "logs"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
